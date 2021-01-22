@@ -1,0 +1,107 @@
+
+.navbar li {
+  display: inline-block;
+} 
+
+body{
+   background-color: white;
+   
+   padding: 0px;
+   padding-top: 0px;
+  }
+
+header {
+  color:#fff;
+  background-color: #381f73;
+  font-family: Regular Patch,Regular Bold,Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  height: auto;
+  top:0px;
+  font-weight:700;
+  font-size: 20px;
+  position:fixed;
+  width:100%;
+  z-index: 5;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.information {
+  height: 5rem;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  border: 10px solid;
+  border-color:#381f73;
+  font-family: merriweather;
+}
+
+.navigation_bar button{
+    color: #000;
+    border: 1px solid #3069f0;
+    min-width: auto;
+    max-width: 20rem;
+    font-weight: 700;
+    text-align: center;
+    display:inline-block;
+    width: auto;
+    
+}
+
+.topics{
+font-family: 'Times New Roman', Times, serif;
+background-color: white;
+height: fit-content;
+width: fit-content;
+
+}
+
+h1 {
+  font-family: Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 1.25rem;
+  color: #381f73;
+}
+
+h2{
+  display:inline-block;
+}
+
+h2 a{
+  color:#6400e4;
+}
+
+svg{
+  display:inline-block;
+  border-radius:50%;
+  background-color: #ffd500;
+  fill:black;
+  
+}
+
+.topics_section{
+  margin-bottom:80px;
+  color: purple;
+  position:relative;
+  top:100px;
+
+}
+.topics_section div{
+  margin-bottom: 10px;
+}
+.topics_section p{
+  text-indent: 10px;
+}
+
+
+footer {
+position: fixed;
+width: 100%;
+height: auto;
+top:100%;
+z-index: 5;
+background-color:#381f73;
+color:#fff;
+}
